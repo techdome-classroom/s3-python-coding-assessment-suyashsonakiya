@@ -15,7 +15,7 @@ class Solution(object):
 
        
         for char in s:
-            # If the character is an opening bracket, push it to the stack
+           
             if char in matching_pairs.values():
                 stack.append(char)
             # If it's a closing bracket, check if it matches the last opened bracket
