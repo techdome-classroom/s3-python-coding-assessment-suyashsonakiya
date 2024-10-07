@@ -20,7 +20,7 @@ class Solution(object):
                 stack.append(char)
             
             elif char in matching_pairs.keys():
-                # If stack is empty or the top of the stack does not match the current character
+                
                 if stack == [] or matching_pairs[char] != stack.pop():
                     return False
         # If the stack is empty, all brackets were matched correctly
