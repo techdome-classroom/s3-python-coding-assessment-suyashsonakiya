@@ -18,7 +18,7 @@ class Solution(object):
            
             if char in matching_pairs.values():
                 stack.append(char)
-            # If it's a closing bracket, check if it matches the last opened bracket
+            
             elif char in matching_pairs.keys():
                 # If stack is empty or the top of the stack does not match the current character
                 if stack == [] or matching_pairs[char] != stack.pop():
