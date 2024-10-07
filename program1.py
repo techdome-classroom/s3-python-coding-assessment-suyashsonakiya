@@ -23,7 +23,7 @@ class Solution(object):
                 
                 if stack == [] or matching_pairs[char] != stack.pop():
                     return False
-        # If the stack is empty, all brackets were matched correctly
+        
         return stack == []
 
 
