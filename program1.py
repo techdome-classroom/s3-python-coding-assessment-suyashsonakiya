@@ -13,7 +13,7 @@ class Solution(object):
             '}': '{'
         }
 
-        # Iterate over each character in the string
+       
         for char in s:
             # If the character is an opening bracket, push it to the stack
             if char in matching_pairs.values():
